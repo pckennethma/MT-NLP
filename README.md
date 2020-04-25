@@ -19,13 +19,13 @@ Note that all codes are written in Python 3.6. Please download the [file](https:
 
 ## Python Library
 
-- tensorflow
-- keras
-- sklearn
-- numpy
-- gensim ("word2vec-google-news-300" model)
-- stanfordcorenlp
-- nltk
+- tensorflow (1.8.0)
+- keras (2.2.4)
+- sklearn (0.20.3)
+- numpy (1.16.2)
+- gensim (3.8.1) (Please download `word2vec-google-news-300` model after installation)
+- stanfordcorenlp (3.9.1.1)
+- nltk (3.5) (Please download `WordNet` after installation)
 
 Since Stanford Corenlp is one of our dependencies, `jdk` is required.
 In addition, to evaluate the fluency score of mutations, please follow the instruction of [pytorch-human-performance-gec](https://github.com/rgcottrell/pytorch-human-performance-gec) to install dependencies.
@@ -68,7 +68,7 @@ Note that all the customization are disabeld by default, which is consistent wit
 
 ## Mutation Enhancement
 
-For the reason that the correctness of word analogy in the word embedding model is not guaranteed, we employ a Knowledge Graph-based post-process mechanism to validate generated tokens and rule out potentially error ones (cf. `line 68` in `Tester.py`).
+For the reason that the correctness of word analogy in the word embedding model is not guaranteed, we employ a Knowledge Graph-based post-process mechanism to validate generated tokens and rule out potentially error ones (cf. `line 68` in `Mutator.py`).
 
 ## Pre-fetch
 

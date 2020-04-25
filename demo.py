@@ -12,7 +12,7 @@ args = parser.parse_args()
 import pandas as pd
 import pickle, os
 import gensim.downloader as api
-from Tester import AnalogyMutator, ActiveMutator, create_sentence_candidates
+from Mutator import AnalogyMutator, ActiveMutator, create_sentence_candidates
 from fluency_scorer import FluencyScorer
 import pickle
 from keras.models import load_model
@@ -32,11 +32,6 @@ print("word2vec model loaded")
 p, d = "dependency/wiki103/wiki103.pt", "dependency/wiki103"
 fluency_scorer = FluencyScorer(p, d)
 
-# config gpu device if needed
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
-config = tf.ConfigProto()
-config.gpu_options.allow_growth = True
-session = tf.Session(config=config)
 # load cnn model
 VOCAB_SIZE = 30000
 MAX_LEN = 500
