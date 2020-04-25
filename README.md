@@ -15,7 +15,7 @@ year = {2020},
 
 # Dependency
 
-Note that all codes are written in Python 3.6. Please download the [file](https://placeholder) and extract in the `./dependency` folder.
+Note that all codes are written in Python 3.6. Please download the [file](https://drive.google.com/file/d/1nNzFkDw2CQGq9EFIjnuWMDdisb0IYGFn/view?usp=sharing) and extract in the `./dependency` folder.
 
 ## Python Library
 
