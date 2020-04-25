@@ -1,0 +1,16 @@
+actor	actress
+boy	girl
+brother	sister
+dad	mum
+daddy	mummy
+man	woman
+father	mother
+grandfather	grandmother
+husband	wife
+king	queen
+nephew	niece
+policeman	policewoman
+prince	princess
+son	daughter
+uncle	aunt
+waiter	waitress
