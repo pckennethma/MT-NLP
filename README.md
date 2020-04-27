@@ -32,6 +32,7 @@ In addition, to evaluate the fluency score of mutations, please follow the instr
 
 # Demo
 
+## Usage
 ```
 python demo.py -h
 ```
@@ -48,6 +49,8 @@ optional arguments:
   -k K        mitigation parameter k
   -e E        mitigation parameter epsilon
 ```
+
+## Example
 
 ```
 python demo.py -s example.txt -k 15 -e 2.0
