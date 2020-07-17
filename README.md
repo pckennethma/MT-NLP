@@ -1,6 +1,6 @@
 # MT-NLP
 
-Implementation of paper ["Metamorphic Testing and Certified Mitigation of Fairness Violations in NLP Models"](https://placeholder). Pingchuan Ma, Shuai Wang, and Jin Liu. In Proceedings of the 29th International Joint Conference on Artificial Intelligence (IJCAI '20), 2020.
+Implementation of paper ["Metamorphic Testing and Certified Mitigation of Fairness Violations in NLP Models"](https://www.ijcai.org/Proceedings/2020/64). Pingchuan Ma, Shuai Wang, and Jin Liu. In Proceedings of the 29th International Joint Conference on Artificial Intelligence (IJCAI '20), 2020.
 
 Please cite as:
 
